@@ -102,4 +102,11 @@
   "optionalDependencies": {
     "bufferutil": "^4.0.8"
   }
+},
+{
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "tsx server/index.ts",
+    "start": "node dist/server/index.js"
+  }
 }
